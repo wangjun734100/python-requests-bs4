@@ -1,0 +1,14 @@
+说明:
+1.因为是用python(3.7)语言写的,使用之前请安装ptrhon3
+2.相关模块bs4,requests
+pip install requests
+pip install Beautifulsoup4
+3.脚本运行之后数据可以先保存，再次运行时请先清楚数据，方便后面查数据
+4.脚本运行test.py文件
+5.数据产生在test.txt,下次再运行脚本可以删除test.txt文件
+6.输入ID和线程数请在注释提示的地方修改
+7.id给个初始值，一直累加1；
+如：id = 529360399，for x in range(0,2)，for循环的值可以修改第二个数字，假如for x in range(0,5)，就是529360399从1加到5，例：529360340，529360341等等
+
+8：cmd里执行语句：1.python             注意：要在文件目录下
+                2. python test.py
